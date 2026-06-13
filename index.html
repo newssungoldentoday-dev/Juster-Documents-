@@ -59,4 +59,40 @@
     </div>
 </body>
   </html>
-  
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juster Documentation</title>
+</head>
+<body>
+
+    <div id="menuIcon" onclick="toggleMenu()" style="cursor: pointer; font-size: 30px;">
+        ☰
+    </div>
+
+    <div id="navLinks" style="display: none;">
+        <a href="index.html">Home</a><br>
+        <a href="documentation.html">Documentation</a><br>
+        <a href="learn.html">Learn Juster</a>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('navLinks');
+            const icon = document.getElementById('menuIcon');
+            
+            // Toggle visibility
+            if (nav.style.display === "none") {
+                nav.style.display = "block";
+                icon.innerHTML = "✕";
+            } else {
+                nav.style.display = "none";
+                icon.innerHTML = "☰";
+            }
+        }
+    </script>
+</body>
+</html>
+
