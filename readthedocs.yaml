@@ -1,1 +1,52 @@
+version: 2
 
+build:
+  os: ubuntu-22.04
+  # Install necessary system packages
+  apt_packages:
+    - pandoc
+    - graphviz
+  # Run your custom Bash scripts
+  jobs:
+    pre_build:
+      - ./path/to/your/script.sh
+      - echo "Bash script executed successfully"
+  tools:
+    python: "3.12"
+
+# Specify your docs tool (Choose ONE: sphinx OR mkdocs)
+sphinx:
+  configuration: docs/conf.py
+
+python:
+  install:
+    - requirements: docs/requirements.txt
+    version: 2
+
+build:
+  os: ubuntu-22.04
+  # Install necessary system packages
+  apt_packages:
+    - pandoc
+    - graphviz
+  # Run your custom Bash scripts
+  jobs:
+    pre_build:
+      - ./path/to/your/script.sh
+      - echo "Bash script executed successfully"
+  tools:
+    python: "3.12"
+
+# Specify your docs tool (Choose ONE: sphinx OR mkdocs)
+sphinx:
+  configuration: docs/conf.py
+
+python:
+  install:
+    - requirements: docs/requirements.txt
+    build:
+  os: ubuntu-22.04
+  apt_packages:
+    - pandoc
+    - graphviz
+    
