@@ -1,4 +1,4 @@
-Welcome to the Official BlueBixt Documentation
+Juster Docer (Juster Documents)
 ==============================================
 
 Welcome to the official documentation for BlueBixt Ltd. 
