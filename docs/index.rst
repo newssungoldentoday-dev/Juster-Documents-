@@ -1,7 +1,7 @@
 Juster Docer (Juster Documents)
 ==============================================
 
-Welcome to the official documentation for BlueBixt Ltd. 
+Welcome to the official documentation of Juster
 
 .. toctree::
    :maxdepth: 2
