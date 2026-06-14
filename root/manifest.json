@@ -1,0 +1,13 @@
+{
+  "project": "JusterDocer",
+  "nodes": {
+    "node_1": {"path": "Root_1/", "purpose": "Documentation Assets"},
+    "node_2": {"path": "Root_2/", "purpose": "Engine Modules"},
+    "node_3": {"path": "Root_3/", "purpose": "Logs and Data"},
+    "node_4": {"path": "Root_4/", "purpose": "Deployment Pipelines"},
+    "node_5": {"path": "Root_5/", "purpose": "Security Keys"},
+    "node_6": {"path": "Root_6/", "purpose": "UI Templates"},
+    "node_7": {"path": "Root_7/", "purpose": "Atlassian API Integration"},
+    "node_8": {"path": "Root_8/", "purpose": "Archive"}
+  }
+}
